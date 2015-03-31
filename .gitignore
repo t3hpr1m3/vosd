@@ -2,10 +2,17 @@ Makefile.in
 /autom4te.cache
 /aclocal.m4
 /configure
+/config.h
+/config.status
 /depcomp
 /install-sh
 .deps
+*.a
 *.log
+*.o
 config.h.in*
 missing
 INSTALL
+Makefile
+src/vosd
+stamp-h1

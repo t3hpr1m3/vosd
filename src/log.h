@@ -6,8 +6,6 @@
  */
 #include <sstream>
 
-#define ERROR VOsd::Log().Error()
-#define DEBUG VOsd::Log().Debug()
 namespace VOsd {
 
 	enum LogType {
@@ -42,4 +40,9 @@ namespace VOsd {
 		LogType             mType;
 		std::ostringstream  mOutputStream;
 	};
+
+#define ERROR VOsd::Log().Error()
+#define DEBUG VOsd::Log().Debug()
+
 } // End Namespace
+
